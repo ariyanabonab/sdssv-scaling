@@ -64,7 +64,7 @@ import pandas as pd
 pd.options.mode.copy_on_write = True 
 
 backup_interval=300 # in second
-scaling=0.8 # multiplier applied to displayed image size... normally this should self-adjust and be set to 1
+scaling=1.0 # multiplier applied to displayed image size... normally this should self-adjust and be set to 1
 class MainWindow(QDialog):
 
     # This is the main window definition 
