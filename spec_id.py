@@ -186,7 +186,7 @@ class MainWindow(QDialog):
             else:
                 mod_height=int(pixmap.height()*scaling)
                 mod_width=int(pixmap.width()*scaling)
-            pixmap_resized = pixmap.scaled(mod_width,mod_height, QtCore.Qt.KeepAspectRatio)
+            pixmap_resized = pixmap.scaled(mod_width, mod_height, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
             self.png_image.setPixmap(pixmap_resized)
             self.png_image.setFixedHeight(mod_height)
             self.png_image.setFixedWidth(mod_width)
