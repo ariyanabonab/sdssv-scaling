@@ -150,6 +150,8 @@ class MainWindow(QDialog):
             self.categorise("DC")
         elif event.key()== QtCore.Qt.Key_Z:
             self.categorise("DZ")
+        elif event.key()== QtCore.Qt.Key_M:
+            self.categorise("Ca Emission")
         elif event.key() == QtCore.Qt.Key_Backslash:
             self.add_comment()
         elif event.key()== QtCore.Qt.Key_G:
