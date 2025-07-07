@@ -147,12 +147,12 @@ class MainWindow(QDialog):
         elif event.key()== QtCore.Qt.Key_B:
             self.categorise("DB")
         elif event.key()== QtCore.Qt.Key_C:
-            self.categorise("DC")
-	elif event.key()== QtCore.Qt.Key_D:
+            self.categorise("DC") 
+        elif event.key()== QtCore.Qt.Key_D:
             self.categorise("DAZ")
-	elif event.key()== QtCore.Qt.Key_Q:
+        elif event.key()== QtCore.Qt.Key_Q:
             self.categorise("DQ")
-	elif event.key()== QtCore.Qt.Key_S:
+        elif event.key()== QtCore.Qt.Key_S:
             self.categorise("sdB")
         elif event.key()== QtCore.Qt.Key_Z:
             self.categorise("DZ")
